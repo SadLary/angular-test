@@ -1,0 +1,42 @@
+:host {
+  width: 100%;
+}
+.list-item {
+  margin-top: 20px;
+  padding: 10px;
+  display: flex;
+}
+.name {
+  width: 15%;
+  padding: 5px 10px;
+  border-right: 1px solid #000;
+}
+.link {
+  width: 65%;
+  padding: 5px 10px;
+  border-right: 1px solid #000;
+}
+.preview {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 15%;
+}
+.preview-img {
+  width: 25px;
+  height: 25px;
+}
+.actions {
+  display: flex;
+}
+.actions-btn {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 10px;
+}
+.actions-btn:first-child {
+  font-size: 20px;
+}

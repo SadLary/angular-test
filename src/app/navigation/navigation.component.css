@@ -1,0 +1,17 @@
+:host {
+  border-right: 1px solid #000000;
+}
+.nav-list {
+  display: flex;
+  flex-direction: column;
+}
+.nav-list-links {
+  padding: 10px 20px;
+  display: inline-block;
+  text-decoration: none;
+  color: #0d5aae;
+}
+.active-link {
+  background-color: bisque;
+  color: black;
+}

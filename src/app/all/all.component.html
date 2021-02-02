@@ -1,0 +1,13 @@
+<h2 class="main-heading">All<input type="text" [(ngModel)]="searchText"></h2>
+
+<div *ngFor='let smile of allSmiles | appFilter: searchText' class="list-item">
+  <p class="name">Название: {{ smile.name }}</p>
+  <p class="link">Ссылка: <a href="{{ smile.link }}">{{ smile.link }}</a></p>
+  <div class="preview">
+    <img src="{{ smile.link }}" alt="" class="preview-img">
+    <div class="actions">
+      <button class="actions-btn" (click)="this.SmileServiceService.addToFavorites(smile);">*</button>
+      <button class="actions-btn" (click)="this.toDeleted(smile);">x</button>
+    </div>
+  </div>
+</div>

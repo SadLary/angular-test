@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+}
+h2.main-heading {
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border-bottom: 1px solid #000000;
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+  width: 100%;
+}
